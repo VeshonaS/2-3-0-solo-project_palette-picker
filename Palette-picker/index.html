@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Palette picker</title>
+  </head>
+  <body>
+  <main>
+    <h1> Palette Picker </h1>
+    <h2>Custom Palette </h2>
+    <div id="custom-palette">
+      <form aria-label ="new-palette" id ="new-palette">
+        <label for="custom">Palette Title: </label>
+        <input type="text" name="title" id="custom" placeholder ="Name your palette">
+        <br>
+        <label for="color1" >color1:</label>
+        <input type="color" id="color1" name ='colors'>
+        <label for="color2">color2:</label>
+        <input type="color" id="color2" name ='colors'>
+         <label for="color3">color3:</label>
+        <input type="color" id="color3" name ='colors'>
+        <br>
+        <label for="warm">Warm</label>
+        <input type="radio" id="warm" name="temperature" value ="warm">
+        <label for="nuetral">Neutral</label>
+        <input type="radio" id="nuetral" name="temperature" value ="nuetral">
+        <label for="cool">Cool</label>
+        <input type="radio" id="cool" name="temperature" value ="cool">
+        <br>
+        <button type ="submit">Create</button>
+      </form>
+     </div>
+     <ul id="made-palettes">
+      <script type="module" src="./main.js"></script>
+     </ul>
+  </body>
+</html>
+
+ 

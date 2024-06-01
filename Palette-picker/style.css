@@ -1,0 +1,34 @@
+
+
+#custom-palette {
+  border:inset rgb(7, 37, 230) 7px ;
+  width:330px;
+  padding:10px; 
+  display:flex;
+  margin: auto;
+  
+
+ }
+ #made-palettes {
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+ }
+
+.each-card {
+padding:7px ;
+width:200px;
+border:inset rgb(5, 180, 255) 7px ;
+ }
+
+ .title{
+  text-align:center;
+ background-color: aqua;
+ }
+ .temp{
+  text-align: center;
+ } 
+ .temp{
+  text-align:center;
+ background-color: aqua;
+ }
