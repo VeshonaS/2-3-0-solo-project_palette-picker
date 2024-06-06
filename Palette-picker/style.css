@@ -1,17 +1,21 @@
-
+html {
+  font-family: "Raleway", sans-serif;
+}
 
 #custom-palette {
-  border:inset rgb(7, 37, 230) 7px ;
-  width:330px;
+  border:inset rgb(101, 101, 101) 7px ;
+  width:340px;
   padding:10px; 
   display:flex;
   margin: auto;
-  
+  border-radius: 10px;
+ background-image: url(colors\ .gif);
+}
 
- }
+
  #made-palettes {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 list-style-type: none;
  }
 
@@ -19,16 +23,29 @@ list-style-type: none;
 padding:7px ;
 width:200px;
 border:inset rgb(5, 180, 255) 7px ;
+border-radius: 10px;
+background-color: black;
  }
 
  .title{
   text-align:center;
- background-color: aqua;
+color: white;
  }
  .temp{
   text-align: center;
  } 
  .temp{
   text-align:center;
- background-color: aqua;
+  color: white;
+ }
+ h2 {
+  text-align: center;
+ }
+ button {
+  border-radius: 15px;
+  font-family: 'comic-sans', sans-serif ;
+ }
+
+ input {
+  border-radius: 5px;
  }

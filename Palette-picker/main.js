@@ -2,9 +2,9 @@ import './style.css';
  import palettes from'./palettes.json'
 
 // make each palette 
-export const premadePalettes = (pal)=> {
+const premadePalettes = (pal)=> {
   const { temperature , title , colors  } = pal
-
+palettes.push(pal) 
   const palettePlace = document.getElementById('made-palettes')
   const palette = document.createElement('li')
   const caption = document.createElement('p')
@@ -34,4 +34,6 @@ const makePalettes = () =>{
   palettes.forEach(premadePalettes)
 }
 
-makePalettes()
+makePalettes();
+
+  export{premadePalettes}

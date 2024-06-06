@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Palette picker</title>
   </head>
   <body>
@@ -15,17 +16,17 @@
         <label for="custom">Palette Title: </label>
         <input type="text" name="title" id="custom" placeholder ="Name your palette">
         <br>
-        <label for="color1" >color1:</label>
-        <input type="color" id="color1" name ='colors'>
-        <label for="color2">color2:</label>
-        <input type="color" id="color2" name ='colors'>
-         <label for="color3">color3:</label>
-        <input type="color" id="color3" name ='colors'>
+        <label for="color1" >Color 1:</label>
+        <input type="color" id="color1" name ='color1'>
+        <label for="color2">Color 2:</label>
+        <input type="color" id="color2" name ='color2'>
+         <label for="color3">Color 3:</label>
+        <input type="color" id="color3" name ='color'>
         <br>
         <label for="warm">Warm</label>
         <input type="radio" id="warm" name="temperature" value ="warm">
         <label for="nuetral">Neutral</label>
-        <input type="radio" id="nuetral" name="temperature" value ="nuetral">
+        <input type="radio" id="nuetral" name="temperature" value ="neutral">
         <label for="cool">Cool</label>
         <input type="radio" id="cool" name="temperature" value ="cool">
         <br>
@@ -34,6 +35,7 @@
      </div>
      <ul id="made-palettes">
       <script type="module" src="./main.js"></script>
+      <script type="module" src="./event-handlers.js"></script>
      </ul>
   </body>
 </html>
