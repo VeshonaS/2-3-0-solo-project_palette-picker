@@ -15,10 +15,12 @@ const formObj = {
 temperature:newPal.get('temperature')
 }
 premadePalettes(formObj)
- localStorage.setItem("formObj" , JSON.stringify (formObj)  )
-   JSON.parse(localStorage.getItem(formObj))
-}
 
+  const json = JSON.stringify(formObj)
+  localStorage.setItem('json',json)
+  console.log(localStorage)
+
+}
 const form = document.getElementById("new-palette")
 form.addEventListener('submit', submitPal)
 
